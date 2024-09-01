@@ -1,18 +1,70 @@
-* {
+body {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+    background-color: #f5f5f5;
 }
 
-body {
-    font-family: 'poppins', sans-serif;
-    background-color: rgb(249, 249, 249, 1);
+.header {
+    background-color: #fff;
+    padding: 25px 20px;
 }
 
 .container {
     max-width: 1440px;
-    width: 100%;
     margin: 0 auto;
     padding: 0px 84px;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    margin: 13px 0px 0px -22px;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.navigation li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.contact-us-container {
+    width: auto;
+    height: auto;
+}
+
+.contact-us {
+    background-image: url('photos/Rectangle\ 2.jpg');
+    background-size: cover;
+    padding: 8px 32px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.search-icon {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin-top: 9px;
 }
