@@ -16,6 +16,8 @@ body {
     padding: 0px 84px;
 }
 
+
+
 /*====header====*/
 .header {
     display: flex;
@@ -195,5 +197,117 @@ a {
    width: 100%;
  }
 =======
+/*fashion-section*/
 
+.fashion-section{
+    margin-top: 52.5px;
+    margin-bottom: 97px;
+    max-width: 1204px;
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 6px 0px #0000 
+
+
+}
+
+.fashion-section-button{
+    background: url(./photos/Mask\ group.png);
+    padding: 23px 0 299px 47px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 auto;
+   
+}
+
+
+.fashion-section-button a {
+    display: inline-block; 
+    padding: 10px 82px;
+    background-color: #262626;  
+    color: #FFFFFF;             
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+
+.fashion-section-button a:hover {
+    transform: scale(1.15); 
+    background-color: white;
+    color: #262626;
+}
+
+
+
+.fashion-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.fashion-first p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #BCBCBC;
+}
+
+
+.fashion-first h1{
+    color: #F25E5E;
+    margin-right: 108px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.fashion-first-image{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    margin-top: 23px;
+    margin-left: 64.34px;
+}
+
+.fashion-first-image div{
+    display: flex;
+    gap: 130px;
+}
+
+
+.fashion-second{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    gap: 20px; 
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 64px;
+}
+
+
+.fashion-third {
+    display: flex;
+    align-items: center; 
+    gap: 11px; 
+}
+
+.fashion-third a {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4CE0D7;
+    transition: transform 0.3s ease;
+}
+
+.fashion-third:hover {
+    transform: translateX(110px) scale(1.15);
+}
 
