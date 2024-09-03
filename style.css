@@ -16,55 +16,47 @@ body {
     padding: 0px 84px;
 }
 
-.header-flex {
+/*====header====*/
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 47px;
 }
 
-.logo {
-    width: auto;
-    height: auto;
-    margin: 13px 0px 0px -22px;
-}
-
-.navigation ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    align-items: center;
+.navigation {
     display: flex;
-    gap: 30px;
+    align-items: center;
+
 }
 
-.navigation li {
-    margin: 0 15px;
-    position: relative;
+.navigation img {
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.navigation img:hover {
+    transform: scale(1.1);
 }
 
 .navigation a {
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-    font-size: 14px;
-}
-
-.contact-us-container {
-    width: auto;
-    height: auto;
-}
-
-.contact-us {
-    background-image: url('photos/Rectangle\ 2.jpg');
-    background-size: cover;
     padding: 8px 32px;
-    border-radius: 20px;
-    text-align: center;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.2s;
+
 }
 
-.search-icon {
-    width: auto;
-    height: auto;
-    cursor: pointer;
-    margin-top: 9px;
+.navigation a:hover {
+    border-radius: 40px;
+    background-color: rgb(76, 224, 215, 1);
+    transform: scale(1.1);
+
+}
+
+a {
+    text-decoration: none; /* Removes underline from link */
 }
