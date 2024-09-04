@@ -316,6 +316,110 @@ a {
    transform: translateX(110px) scale(1.15);
 }
 
+/* ======fourth section====== */
+.fourth-section{
+   margin-top: 97px;
+}
+
+.main-title-2 {
+   font-size: 32px;
+   font-weight: 700;
+   margin-bottom: 55px;
+}
+
+.fourth-section-card{
+   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+   background-color: rgba(255, 255, 255, 1);
+   border-radius: 20px;
+   width: max-content;
+   padding-bottom: 45px;
+   transition: 0.2s;
+   cursor: pointer;
+}
+
+.fourth-section-card:hover{
+   transform: scale(1.1);
+}
+
+.fourth-img{
+   position: relative;
+}
+
+.fourth-img a{
+   position: absolute;
+   top: 21px;
+   left: 34px;
+   font-size: 12px;
+   font-weight: 700;
+   color: rgba(255, 255, 255, 1);
+   background-color: #262626;
+   padding: 9px 49px;
+   border-radius: 40px;
+   transition: 0.2s;
+}
+
+.fourth-img a:hover{
+   background-color: white;
+   color: #262626;
+
+}
+
+.fourth-icon{
+   display: flex;
+   align-items: center;
+   margin-top: 23px;    
+   padding-left: 26px;
+
+}
+
+.fourth-icon img{
+   margin-right: 28px;
+}
+
+.fourth-icon p{
+   margin-right: 130px;
+   color: rgba(188, 188, 188, 1);
+   font-size: 14px;
+   font-weight: 400;
+
+}
+
+.fourth-text h1{
+   max-width: 400px;
+   font-size: 26px;
+   font-weight: 700;
+   color: #262626;
+}
+
+.fourth-text{
+   padding-left: 26px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   max-width: 420px;
+   margin-top: 28px;
+   margin-bottom: 30px;
+}
+
+.fourth-arrow{
+   display: flex;
+   gap: 24px;
+   align-items: center;
+   cursor: pointer;
+   padding-left: 16px;
+}
+
+.fourth-arrow a{
+   color: rgba(76, 224, 215, 1);
+   font-size: 12px;
+   font-weight: 700;
+   
+}
+
+.fourth-section-cards{
+   display: flex;
+   justify-content: space-between;
+}
 
 /* miros section  */
 
